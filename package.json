@@ -1,0 +1,23 @@
+{
+  "name": "kenai",
+  "version": "0.0.1",
+  "description": "Kenai: Semantic UI components in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "not yet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hivebeat/kenai.git"
+  },
+  "keywords": [
+    "semantic-ui",
+    "react"
+  ],
+  "author": "Emil Hagbarth",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Hivebeat/kenai/issues"
+  },
+  "homepage": "https://github.com/Hivebeat/kenai#readme"
+}
