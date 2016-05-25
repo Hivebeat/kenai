@@ -22,4 +22,4 @@ A simple input with label.
 />
 ```
 
-[Source](../../../src/collections/Form/Input.js)
+[Source](../../../src/collections/Form/inputs/Input.js)
