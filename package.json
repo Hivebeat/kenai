@@ -1,11 +1,14 @@
 {
-  "name": "kenai",
+  "name": "@hivebeat/kenai",
   "version": "0.0.1",
   "description": "Kenai: Semantic UI components in React",
   "main": "dist/kenai.js",
   "scripts": {
     "test": "not yet",
-    "build": "rollup -c rollup.config.js"
+    "build": "rollup -c rollup.config.js",
+    "prebuild:dev": "mv .babelrc.hide .babelrc",
+    "build:dev": " npm run build",
+    "postbuild:dev": "mv .babelrc .babelrc.hide"
   },
   "repository": {
     "type": "git",

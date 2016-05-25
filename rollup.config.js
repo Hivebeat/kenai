@@ -4,5 +4,6 @@ export default {
   entry: 'src/index.js',
   plugins: [babel()],
   format: 'cjs',
+  sourceMap: true,
   dest: 'dist/kenai.js'
 };
