@@ -21,6 +21,6 @@ const MyComponent = () => (
     <Form>
       <Input type='text' value='my name' title='name' />
     </Form>
-  <Card>
+  </Card>
 )
 ```
