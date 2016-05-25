@@ -21,4 +21,4 @@ It assumes that you are already using a date picker (may we suggest [input-momen
 />
 ```
 
-[Source](../../../src/collections/Form/DatePickerInput.js)
+[Source](../../../src/collections/Form/inputs/DatePickerInput.js)
