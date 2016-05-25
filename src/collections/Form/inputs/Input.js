@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react'
-import InputWrapper from './InputWrapper';
+import InputWrapper from './InputWrapper'
 
 const Input = ({ type, name, value, onChange }) => (
   <span>
@@ -11,7 +11,7 @@ const Input = ({ type, name, value, onChange }) => (
 Input.propTypes = {
   type: PropTypes.string,
   name: PropTypes.string,
-  onChange: PropTypes.func,
+  onChange: PropTypes.func
 }
 
 export default InputWrapper(Input)

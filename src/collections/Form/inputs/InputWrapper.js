@@ -1,7 +1,7 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
 
 const InputWrapper = (Input) => (props) => (
-  <div className="field">
+  <div className='field'>
     <Input { ... props }/>
   </div>
 )

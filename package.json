@@ -2,7 +2,7 @@
   "name": "kenai",
   "version": "0.0.1",
   "description": "Kenai: Semantic UI components in React",
-  "main": "index.js",
+  "main": "dist/kenai.js",
   "scripts": {
     "test": "not yet",
     "build": "rollup -c rollup.config.js"
