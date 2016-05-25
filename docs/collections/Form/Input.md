@@ -21,3 +21,5 @@ A simple input with label.
   onChange={this._userNameChanged}
 />
 ```
+
+[Source](../../../src/collections/Form/Input.js)
