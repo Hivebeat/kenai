@@ -14,3 +14,5 @@ Simple container for the other components in this collection.
 - [Input](Input.md)
 - [TextArea](TextArea.md)
 - [DatePickerInput](DatePickerInput.md)
+
+[Source](../../../src/collections/Form/Form.js)
