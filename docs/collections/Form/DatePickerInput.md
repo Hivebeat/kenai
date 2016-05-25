@@ -20,3 +20,5 @@ It assumes that you are already using a date picker (may we suggest [input-momen
   onChange={this._openDatePicker}
 />
 ```
+
+[Source](../../../src/collections/Form/DatePickerInput.js)
