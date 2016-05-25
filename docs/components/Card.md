@@ -21,3 +21,5 @@ The classic Semantic UI Card
   description='Lier and a traitor'
 />
 ```
+
+[Source](../../src/components/Card.js)
