@@ -23,3 +23,4 @@ A simple text area with label.
   onChange={this._descriptionChanged}
 />
 ```
+[Source](../../../src/collections/Form/TextArea.js)
