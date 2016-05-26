@@ -49,6 +49,93 @@
   <span class="pl-k">&lt;</span><span class="pl-k">/</span>Card<span class="pl-k">&gt;</span>
 )</pre></div>
 
+<h2>
+<a id="collections" class="anchor" href="#collections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Collections</h2>
+
+<h3>
+<a id="form" class="anchor" href="#form" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Form</h3>
+
+<p>Simple container for the other components in this collection.</p>
+
+<h4>
+<a id="props" class="anchor" href="#props" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Props:</h4>
+
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>size</td>
+<td>
+<code>string</code> One of Semantic UI's size classes</td>
+<td><code>''</code></td>
+</tr>
+</tbody>
+</table>
+
+<p><a href="https://github.com/hivebeat/kenai/src/collections/Form/Form.js">Source</a></p>
+
+<h3>
+<a id="input" class="anchor" href="#input" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Input</h3>
+
+<p>A simple input with label.</p>
+
+<h4>
+<a id="props-1" class="anchor" href="#props-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Props</h4>
+
+<table>
+<thead>
+<tr>
+<th>name</th>
+<th>description</th>
+<th>default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>type</td>
+<td>
+<code>string</code> Any of the standard html input types</td>
+<td><code>undefined</code></td>
+</tr>
+<tr>
+<td>name</td>
+<td>
+<code>string</code> The name to display on the label</td>
+<td><code>undefined</code></td>
+</tr>
+<tr>
+<td>value</td>
+<td>
+<code>string</code> Default value of the input</td>
+<td><code>undefined</code></td>
+</tr>
+<tr>
+<td>onChange</td>
+<td>
+<code>function</code> Callback function when input changes</td>
+<td><code>undefined</code></td>
+</tr>
+</tbody>
+</table>
+
+<h4>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h4>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">&lt;</span>Input
+  type<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>text<span class="pl-pds">'</span></span>
+  name<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>username<span class="pl-pds">'</span></span>
+  value<span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">'</span>han-solo<span class="pl-pds">'</span></span>
+  onChange<span class="pl-k">=</span>{<span class="pl-v">this</span>.<span class="pl-smi">_userNameChanged</span>}
+<span class="pl-k">/</span><span class="pl-k">&gt;</span></pre></div>
+
+<p><a href="https://github.com/hivebeat/kenai/src/collections/Form/inputs/Input.js">Source</a></p>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Hivebeat/kenai">Kenai</a> is maintained by <a href="https://github.com/Hivebeat">Hivebeat</a>.</span>
 
