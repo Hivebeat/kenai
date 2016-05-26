@@ -1,4 +1,4 @@
-# Kenai
+# Kenai [![npm (scoped)](https://img.shields.io/npm/v/@hivebeat/kenai.svg?maxAge=2592000)]()
 Kenai: [Semantic UI](http://semantic-ui.com/) components in [React](https://facebook.github.io/react/)
 
 ## Beware
