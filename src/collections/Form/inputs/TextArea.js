@@ -4,7 +4,7 @@ import InputWrapper from './InputWrapper'
 const TextArea = ({ type, name, value, rows, onChange }) => (
   <span>
     <label>{name}</label>
-    <textarea row={rows} defaultValue={value} onChange={onChange} />
+    <textarea rows={rows} defaultValue={value} onChange={onChange} />
   </span>
 )
 
