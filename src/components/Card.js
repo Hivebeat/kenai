@@ -1,24 +1,28 @@
 import React, { PropTypes } from 'react'
 
+const Header = ({ header, headerContent, description }) => (
+  <div className='content'>
+    {headerContent || null }
+    <div className='header'>
+      {header}
+    </div>
+    <div className='description'>
+      <p>{description}</p>
+    </div>
+  </div>
+)
+
 const Card = (props) => (
   <div className={`ui ${props.fluid ? 'fluid' : ''} card`}>
-    <div className='content'>
-      {props.headerContent || null }
-      <div className='header'>
-        {props.header}
-      </div>
-      <div className='description'>
-        <p>{props.description}</p>
-      </div>
-    </div>
+    {props.header || props.description ? <Header {... props} /> : null}
     {props.children}
   </div>
 )
 
 Card.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string,
   description: PropTypes.string,
-  children: PropTypes.array,
+  children: PropTypes.any,
   headerContent: PropTypes.object,
   fluid: PropTypes.bool
 }
