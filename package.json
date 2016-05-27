@@ -4,11 +4,21 @@
   "description": "Kenai: Semantic UI components in React",
   "main": "dist/kenai.js",
   "scripts": {
-    "test": "not yet",
+    "test": "jest",
     "build": "rollup -c rollup.config.js",
     "prebuild:dev": "mv .babelrc.hide .babelrc",
     "build:dev": " npm run build",
     "postbuild:dev": "mv .babelrc .babelrc.hide"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "react",
+      "enzyme"
+    ],
+    "moduleFileExtensions": [
+      "json"
+    ]
   },
   "repository": {
     "type": "git",
@@ -25,8 +35,11 @@
   },
   "homepage": "https://github.com/Hivebeat/kenai#readme",
   "devDependencies": {
+    "babel-jest": "^12.1.0",
     "babel-preset-es2015-rollup": "^1.1.1",
     "babel-preset-react": "^6.5.0",
+    "enzyme": "^2.3.0",
+    "jest-cli": "^12.1.1",
     "react": "^15.1.0",
     "rollup": "^0.26.3",
     "rollup-plugin-babel": "^2.4.0"
