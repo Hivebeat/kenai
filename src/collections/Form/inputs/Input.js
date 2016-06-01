@@ -1,16 +1,17 @@
 import React, { PropTypes } from 'react'
 import InputWrapper from './InputWrapper'
 
-const Input = ({ type, name, value, onChange }) => (
+const Input = ({ type, name, value, min, onChange }) => (
   <span>
     <label>{name}</label>
-    <input type={type} defaultValue={value} onChange={onChange} />
+    <input type={type} defaultValue={value} onChange={onChange} min={min || null} />
   </span>
 )
 
 Input.propTypes = {
   type: PropTypes.string,
   name: PropTypes.string,
+  min: PropTypes.string,
   onChange: PropTypes.func
 }
 
