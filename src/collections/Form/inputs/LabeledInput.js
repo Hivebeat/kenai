@@ -7,8 +7,9 @@ const LabeledInput = ({ type, name, value, position = 'left', label, min, onChan
   <span>
     <label>{name}</label>
     <div className={`ui ${position} labeled input`}>
-      <div className="ui label">{label}</div>
+      {position === 'left' ? <div className="ui label">{label}</div> : null}
       <input type={type} defaultValue={value} onChange={onChange} min={min || null} />
+      {position === 'right' ? <div className="ui label">{label}</div> : null}
     </div>
   </span>
 )

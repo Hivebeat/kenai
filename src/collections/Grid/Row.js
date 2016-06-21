@@ -1,7 +1,8 @@
 import React, { PropTypes } from 'react'
+import numberToWords from '../../utils/numberToWords'
 
-const Row = ({ children }) => (
-  <div className="row">
+const Row = ({ children, columns }) => (
+  <div className={`${columns ? numberToWords(columns).replace(' only ', '') : ''} column row`}>
     {children}
   </div>
 )
