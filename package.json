@@ -1,6 +1,6 @@
 {
   "name": "@hivebeat/kenai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Kenai: Semantic UI components in React",
   "main": "dist/kenai.js",
   "scripts": {
