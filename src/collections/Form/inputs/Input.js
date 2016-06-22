@@ -4,7 +4,7 @@ import InputWrapper from './InputWrapper'
 const Input = ({ type, name, value, min, onChange }) => (
   <span>
     <label>{name}</label>
-    <input type={type} defaultValue={value} onChange={onChange} min={min || null} />
+    <input type={type} name={name} defaultValue={value} onChange={onChange} min={min || null} />
   </span>
 )
 
