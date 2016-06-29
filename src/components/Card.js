@@ -13,7 +13,7 @@ const Header = ({ header, headerContent, description }) => (
 )
 
 const Card = (props) => (
-  <div className={`ui ${props.fluid ? 'fluid' : ''} card`}>
+  <div className={`ui ${props.fluid ? 'fluid' : ''} card`} style={props.style}>
     {props.header || props.description ? <Header {... props} /> : null}
     {props.children}
   </div>
